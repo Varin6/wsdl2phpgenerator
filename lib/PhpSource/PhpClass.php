@@ -103,7 +103,6 @@ class PhpClass extends PhpElement
     public function __construct($identifier, $classExists = false, $extends = '', PhpDocComment $comment = null, $final = false, $abstract = false)
     {
         $this->dependencies = array();
-        $this->implements = array();
         $this->classExists = $classExists;
         $this->comment = $comment;
         $this->final = $final;
